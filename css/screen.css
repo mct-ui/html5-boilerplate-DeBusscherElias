@@ -19,9 +19,11 @@ html {
  */
 
 ::-moz-selection {
-
+    background: #44c8f5;
+    color: white;
 }
 
 ::selection {
-
+    background: #44c8f5;
+    color: white;
 }
