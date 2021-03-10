@@ -9,6 +9,8 @@ html {
     line-height: 1.5;
     font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
     color: black;
+    padding: 24px 24px 0px;
+    /*top right/left bottom*/
 }
 
 /*
@@ -26,4 +28,21 @@ html {
 ::selection {
     background: #44c8f5;
     color: white;
+}
+
+body{
+    max-width: 42em;
+    margin: 0 auto;
+}
+
+/*
+    Elements: Images
+    ---
+    Default markup for images to make them responsive
+*/
+
+img{
+    max-width: 100%;
+    vertical-align: top;
+
 }
